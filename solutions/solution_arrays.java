@@ -1,25 +1,16 @@
 package solutions;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-
 
 /* THIS CHALLENGE IS YET TO BE COMPLETED AT A 100% ACCURACY */
 
-public class Solutions_arrays {
+public class solution_arrays {
 	public static int solution(int[] A) {
         // write your code in Java SE 8
 
-    	int count = 0;
     	
     	Arrays.sort(A);
 
-        int total = A[0];
-
-        List<Integer> res = new ArrayList<Integer>();
-    	
-    	int num = A[0];
     	
     	for (int i = 1; i<A.length-1; i+=2) {
     		if(!(A[i]== A[i-1]) && !(A[i] == A[i+1])){
