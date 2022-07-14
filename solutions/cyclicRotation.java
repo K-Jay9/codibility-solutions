@@ -1,6 +1,5 @@
 package solutions;
 
-// 87% ACCURACY AS OF 14/7/22
 
 import java.util.*;
 
